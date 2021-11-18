@@ -19,4 +19,3 @@ class ViewController extends Controller
         //code untuk meload data yang akan dimuat di form
 }
 
-    
