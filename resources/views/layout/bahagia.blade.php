@@ -74,7 +74,7 @@
         {{-- </nav> --}}
     <br>
         <div class="row">
-            <div class="col-sm-2 text-center" style="margin-top: 130px">
+            <div class="col-sm-2 text-center" style="margin-top: 145px">
                     <div class="sidebar-nav">
                       <div class="navbar navbar-default" role="navigation">
                         <div class="navbar-header">
@@ -110,7 +110,7 @@
         <footer style="bottom:0; position: fixed; left: 0; text-align: center; width: 100%; margin-bottom:10px;">
             <p>© 2021 Muhammad Ghiffari 5026201044</p>
     </div>
-    
+
 
 </body>
 
