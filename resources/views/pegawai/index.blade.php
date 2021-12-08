@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html>
+@extends('layout.bahagia')
+
+@section('title', 'Data pegawai')
+@section('judulhalaman', 'Daftar Pegawai')
+
+@section('konten')
 <head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
 </head>
 <body>
 
-	<h2>www.malasngoding.com</h2>
-	<h3>Data Pegawai</h3>
-
-	<a href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
+	<a class="btn btn-success" href="/pegawai/tambah">Tambah Pegawai Baru</a>
 
 	<br/>
 	<br/>
 
-	<table border="1">
+	<table class="table table-bordered table-responsive-sm table-striped" >
 		<tr>
 			<th>Nama</th>
 			<th>Jabatan</th>
@@ -28,9 +28,10 @@
 			<td>{{ $p->pegawai_umur }}</td>
 			<td>{{ $p->pegawai_alamat }}</td>
 			<td>
-				<a href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
-				|
-				<a href="/pegawai/hapus/{{ $p->pegawai_id }}">Hapus</a>
+				<a class="btn btn-info" href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
+
+				
+				<a class="btn btn-danger" href="/pegawai/hapus/{{ $p->pegawai_id }}">Hapus</a>
 			</td>
 		</tr>
 		@endforeach
@@ -38,4 +39,4 @@
 
 
 </body>
-</html>
+@endsection
