@@ -60,18 +60,7 @@
           </ul>
         </div>
       </nav>
-    {{-- <div class="container">
-        <nav class="navbar navbar-inverse">
-        {{-- <div class="row"> --}}
-        {{-- <div class="col-2"> --}}
-            {{-- <img src="{{ asset('/images/Muhammad Ghiffari_5026201044.jpeg') }}" class="img-circle" alt="Foto diri" width="34" height="34">
-            {{-- <div class="col-10"> --}}
-            {{-- <h3>Muhammad Ghiffari
-          </h3>
-        </div> --}}
-        {{-- </div> --}}
-    {{-- </div> --}}
-        {{-- </nav> --}}
+
     <br>
         <div class="row">
             <div class="col-sm-2 text-center" style="margin-top: 145px">
@@ -91,6 +80,7 @@
                             <li><a href="/pegawai">Pegawai</a></li>
                             <li><a href="/absen">Absen</a></li>
                             <li><a href="/tugas">Tugas</a></li>
+                            <li><a href="/baju">Baju</a></li>
                             <li><a href="#">Minggu Depan</a></li>
                             <li><a href="#">Praktikum</a></li>
                           </ul>
