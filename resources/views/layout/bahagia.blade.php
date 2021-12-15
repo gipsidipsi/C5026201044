@@ -81,6 +81,7 @@
                             <li><a href="/absen">Absen</a></li>
                             <li><a href="/tugas">Tugas</a></li>
                             <li><a href="/baju">Baju</a></li>
+                            <li><a href="/Karyawan1">Karyawan1</a></li>
                             <li><a href="#">Minggu Depan</a></li>
                             <li><a href="#">Praktikum</a></li>
                           </ul>
@@ -97,7 +98,7 @@
             </div>
 
         </div>
-        <footer style="bottom:0; position: fixed; left: 0; text-align: center; width: 100%; margin-bottom:10px;">
+        <footer style="bottom:0; position: relative; left: 0; text-align: center; width: 100%; margin-bottom:10px;">
             <p>© 2021 Muhammad Ghiffari 5026201044</p>
     </div>
 

@@ -62,3 +62,11 @@ Route::post('/baju/store', 'BajuController@store');
 Route::get('/baju/edit/{id}', 'BajuController@edit');
 Route::post('/baju/update', 'BajuController@update');
 Route::get('/baju/hapus/{id}', 'BajuController@hapus');
+Route::get('/baju/view/{id}', 'BajuController@detail');
+Route::get('/baju/cari', 'BajuController@cari');
+
+Route::get('/karyawan1', 'Karyawan1Controller@index');
+Route::get('/karyawan1/edit/{id}', 'Karyawan1Controller@edit');
+Route::post('/karyawan1/update', 'Karyawan1Controller@update');
+Route::get('/karyawan1/view/{id}', 'Karyawan1Controller@detail');
+Route::get('/karyawan1/cari', 'Karyawan1Controller@cari');

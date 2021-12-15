@@ -34,13 +34,13 @@
             });
         </script>
 
-        Status <br />
-        <input type="radio" id="html" name="status" value="I">
-        <label for="html">Izin</label>
-        <input type="radio" id="css" name="status" value="S" checked="checked">
-        <label for="css">Sakit</label>
-        <input type="radio" id="javascript" name="status" value="A">
-        <label for="javascript">Alpha</label>
+            Status <br />
+            <input type="radio" id="html" name="status" value="I">
+            <label for="html">Izin</label>
+            <input type="radio" id="css" name="status" value="S" checked="checked">
+            <label for="css">Sakit</label>
+            <input type="radio" id="javascript" name="status" value="A">
+            <label for="javascript">Alpha</label>
 
         <div class="d-flex">
             <a class="btn btn-primary" href="/absen"> Kembali</a>

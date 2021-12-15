@@ -14,7 +14,6 @@
 
 	<form action="/tugas/store" method="post">
 		{{ csrf_field() }}
-		ID <input class="form-control" type="text" name="ID" required="required"> <br/>
 		IDPegawai <input class="form-control" type="text" name="IDPegawai" required="required"> <br/>
 		Tanggal <input class="form-control" type="datetime-local" name="Tanggal" required="required"> <br/>
 		NamaTugas <input class="form-control" name="NamaTugas" required="required"></input> <br/>

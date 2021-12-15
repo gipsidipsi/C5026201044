@@ -15,11 +15,16 @@
 
 	<form action="/baju/store" method="post">
 		{{ csrf_field() }}
-		Merk Baju <input class="form-control" type="text" name="nama" required="required"> <br/>
-		Stock Baju <input class="form-control" type="text" name="jabatan" required="required"> <br/>
-		Tersedia <input class="form-control" type="number" name="umur" required="required"> <br/>
+		Merk Baju <input class="form-control" type="text" name="merkbaju" required="required"> <br/>
+		Stock Baju <input class="form-control" type="text" name="stockbaju" required="required"> <br/>
+        Tersedia <br />
+        <input type="radio" id="html" name="tersedia" value="Y">
+        <label for="html">Tersedia</label>
+        <input type="radio" id="css" name="tersedia" value="T" checked="checked">
+        <label for="css">Kosong</label>
+<br>
         <a class="btn btn-primary" href="/baju"> Kembali</a>
-		<input class="btn btn-success" type="submit" value="Simpan Data">
+        <input class="btn btn-success" type="submit" value="Simpan Data">
 	</form>
 
 </body>

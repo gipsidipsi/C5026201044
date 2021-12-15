@@ -18,14 +18,17 @@
 
 		<input type="hidden" name="id" value="{{ $b->kodebaju }}"> <br/>
             <div class="mb-2">
-            Merk Baju <input class="form-control" type="text" required="required" name="nama" value="{{ $b->merkbaju }}"> <br/>
+            Merk Baju <input class="form-control" type="text" required="required" name="merkbaju" value="{{ $b->merkbaju }}"> <br/>
         </div>
         <div class="mb-2">
-            Stock Baju <input class="form-control" type="text" required="required" name="jabatan" value="{{ $b->stockbaju }}"> <br/>
+            Stock Baju <input class="form-control" type="text" required="required" name="stockbaju" value="{{ $b->stockbaju }}"> <br/>
         </div>
-        <div class="mb-2">
-            Tersedia <input class="form-control" type="number" required="required" name="umur" value="{{ $b->tersedia }}"> <br/>
-        </div>
+        Tersedia <br/>
+        <input type="radio" id="html" name="tersedia" value="Y">
+        <label for="html">Tersedia</label>
+        <input type="radio" id="css" name="tersedia" value="T" checked="checked">
+        <label for="css">Kosong</label>
+        <br>
 
         <a class="btn btn-primary" href="/baju"> Kembali</a>
 		<input class="btn btn-success" type="submit" value="Simpan Data">

@@ -8,17 +8,29 @@
 </head>
 <body>
 
-	<a class="btn btn-success" href="/pegawai/tambah">Tambah Pegawai Baru</a>
+    <div class="row">
+        <div class="col-sm-2">
+            <a class="btn btn-success" href="/pegawai/tambah">Tambah Pegawai Baru</a>
+        </div>
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-6">
+                <form action="/pegawai/cari" method="GET">
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="cari" placeholder="Cari Pegawai berdasarkan nama atau alamat .." value="{{ old('cari') }}">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="submit" class="btn btn-secondary" value="CARI">
+                    </div>
 
-	<br/>
-	<br/>
-
-    <div class="container" align="center">
-        <form action="/pegawai/cari" method="GET">
-            <input type="text" class="form-control" name="cari" placeholder="Cari Pegawai berdasarkan nama atau alamat .." value="{{ old('cari') }}">
-            <input type="submit" class="btn btn-secondary" value="CARI">
-        </form>
+                </form>
+        </div>
     </div>
+
+	<br/>
+	<br/>
+
+
 
 
 	<table class="table table-bordered table-responsive-sm table-striped" >

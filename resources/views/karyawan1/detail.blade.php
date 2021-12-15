@@ -17,12 +17,12 @@
 	<br/>
 	<br/>
 
-	@foreach($baju as $b)
+	@foreach($karyawan1 as $p)
 
     <div class="row mt2">
         <div class="col-sm-2">
             <div style="color: black;" class="label">
-                Kode Baju
+                NIP
             </div>
         </div>
         <div  class="col-sm-2">
@@ -32,7 +32,7 @@
         </div>
         <div class="col-sm-2">
             <div style="color: black;" class="label">
-                {{$b->kodebaju}}
+                {{$p->NIP}}
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
     <div class="row mt2">
         <div class="col-sm-2">
             <div style="color: black;" class="label">
-                Merk Baju
+                Nama
             </div>
         </div>
         <div class="col-sm-2">
@@ -51,7 +51,7 @@
         </div>
         <div class="col-sm-2">
             <div style="color: black;" class="label">
-                {{ $b->merkbaju }}
+                {{ $p->Nama }}
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
     <div class="row mt2">
         <div class="col-sm-2">
             <div style="color: black;" class="label">
-                Stock Baju
+                Pangkat
             </div>
         </div>
         <div class="col-sm-2">
@@ -70,7 +70,7 @@
         </div>
         <div class="col-sm-2">
             <div style="color: black;" class="label">
-                {{ $b->stockbaju }}
+                {{ $p->Pangkat }}
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
     <div class="row mt2">
         <div class="col-sm-2">
             <div style="color: black;" class="label">
-                Tersedia
+                Gaji
             </div>
         </div>
         <div style="color: black;" class="col-sm-2">
@@ -89,12 +89,12 @@
         </div>
         <div style="color: black;" class="col-sm-2">
             <div style="color: black;" class="label">
-                {{ $b->tersedia }}
+                {{ number_format($p->Gaji, 0, ',', '.') }}
             </div>
         </div>
     </div>
 
-        <a class="btn btn-primary" href="/pegawai"> Kembali</a>
+        <a class="btn btn-primary" href="/karyawan1"> Kembali</a>
 
 	@endforeach
 
